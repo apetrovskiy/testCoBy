@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"dotnet-test-explorer.testProjectPath": "src/test",
+		"files.watcherExclude": {
+			"**/target": true
+		},
+		"dotnet-test-explorer.autoWatch": true
+	}
+}
