@@ -5,7 +5,8 @@ import pytest
 test_data = [
     ("Argument goes here", 1),
     ("(coder)(byte))", 0),
-    ("(c(oder)) b(yte)", 1)
+    ("(c(oder)) b(yte)", 1),
+    ("the color re(d))()(()", 0)
 ]
 
 
