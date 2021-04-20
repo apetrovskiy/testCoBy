@@ -3,7 +3,8 @@ def BracketMatcher(strParam):
     # code goes here
     LEFT_BRACKET = '('
     RIGHT_BRACKET = ')'
-    if strParam.find(LEFT_BRACKET) == -1 and strParam.find(RIGHT_BRACKET) == -1:
+    if strParam.find(LEFT_BRACKET) == -1 \
+            and strParam.find(RIGHT_BRACKET) == -1:
         return 1
     if strParam.count(LEFT_BRACKET) != strParam.count(RIGHT_BRACKET):
         return 0
@@ -35,6 +36,6 @@ def BracketMatcher(strParam):
 
 
 '''
-# keep this function call here 
+# keep this function call here
 print(BracketMatcher(input()))
 '''

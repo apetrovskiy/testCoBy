@@ -1,5 +1,6 @@
-from src.main.java.challenges.medium.BracketMatcher.bracket_matcher import BracketMatcher
 import pytest
+from src.main.java.challenges.medium.BracketMatcher.bracket_matcher \
+    import BracketMatcher
 
 
 test_data = [

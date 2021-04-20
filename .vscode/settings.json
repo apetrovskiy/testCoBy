@@ -20,5 +20,6 @@
         "**/target": true
     },
     "rubyTestExplorer.minitestDirectory": "./src/test/java/",
-    "rubyTestExplorer.rspecDirectory": "./src/test/java/"
+    "rubyTestExplorer.rspecDirectory": "./src/test/java/",
+    "python.pythonPath": "C:\\Users\\Alexander Petrovskiy\\.virtualenvs\\testCoBy-f_GWrSmw\\Scripts\\python.exe"
 }
