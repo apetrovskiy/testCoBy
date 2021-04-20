@@ -1,0 +1,79 @@
+{
+  "uid" : "9d50e1e0f5f4274f",
+  "name" : "test_min_window_substring_someone_elses[input_array2-aksfaje]",
+  "fullName" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring#test_min_window_substring_someone_elses",
+  "historyId" : "51c40d1f6482d8aed81725dae6e129a5",
+  "time" : {
+    "start" : 1618931466046,
+    "stop" : 1618931466047,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring"
+  }, {
+    "name" : "suite",
+    "value" : "test_min_window_substring"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-8"
+  }, {
+    "name" : "thread",
+    "value" : "3317-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'aksfaje'"
+  }, {
+    "name" : "input_array",
+    "value" : "['ahffaksfajeeubsne', 'jefaa']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b321b455965388e6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/2//#testresult/b321b455965388e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618611582983,
+          "stop" : 1618611582984,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9d50e1e0f5f4274f.json",
+  "parameterValues" : [ "'aksfaje'", "['ahffaksfajeeubsne', 'jefaa']" ]
+}

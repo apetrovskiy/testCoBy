@@ -1,0 +1,79 @@
+{
+  "uid" : "dc0e5d647502d4b2",
+  "name" : "test_tree_constructor[input_data2-false]",
+  "fullName" : "src.test.java.challenges.medium.TreeConstructor.test_tree_constructor#test_tree_constructor",
+  "historyId" : "5f8a13fb0b9a92df0234c6465452c23a",
+  "time" : {
+    "start" : 1618931466072,
+    "stop" : 1618931466072,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.medium.TreeConstructor"
+  }, {
+    "name" : "suite",
+    "value" : "test_tree_constructor"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-8"
+  }, {
+    "name" : "thread",
+    "value" : "3317-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.medium.TreeConstructor.test_tree_constructor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'false'"
+  }, {
+    "name" : "input_data",
+    "value" : "['(2,5)', '(2,6)']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f0dd709b548d2a24",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/2//#testresult/f0dd709b548d2a24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618611583010,
+          "stop" : 1618611583010,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dc0e5d647502d4b2.json",
+  "parameterValues" : [ "'false'", "['(2,5)', '(2,6)']" ]
+}

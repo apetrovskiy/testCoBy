@@ -1,0 +1,79 @@
+{
+  "uid" : "2b8acbc70d795cf5",
+  "name" : "test_min_window_substring_someone_elses[input_array5-affsf]",
+  "fullName" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring#test_min_window_substring_someone_elses",
+  "historyId" : "971d78b64513d44482835f03a58f4022",
+  "time" : {
+    "start" : 1618931466056,
+    "stop" : 1618931466057,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring"
+  }, {
+    "name" : "suite",
+    "value" : "test_min_window_substring"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-8"
+  }, {
+    "name" : "thread",
+    "value" : "3317-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'affsf'"
+  }, {
+    "name" : "input_array",
+    "value" : "['aaffsfsfasfasfasfasfasfacasfafe', 'fafsf']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a3c1f6b2bd2a8ef7",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/2//#testresult/a3c1f6b2bd2a8ef7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618611582993,
+          "stop" : 1618611582994,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2b8acbc70d795cf5.json",
+  "parameterValues" : [ "'affsf'", "['aaffsfsfasfasfasfasfasfacasfafe', 'fafsf']" ]
+}

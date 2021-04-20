@@ -1,0 +1,79 @@
+{
+  "uid" : "8a4fabea3a6c05d7",
+  "name" : "test_min_window_substring[input_array3-affhkkse]",
+  "fullName" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring#test_min_window_substring",
+  "historyId" : "f6d508be8a483c8b0b6cf761a7dcb73d",
+  "time" : {
+    "start" : 1618931466020,
+    "stop" : 1618931466020,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring"
+  }, {
+    "name" : "suite",
+    "value" : "test_min_window_substring"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-8"
+  }, {
+    "name" : "thread",
+    "value" : "3317-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'affhkkse'"
+  }, {
+    "name" : "input_array",
+    "value" : "['aaffhkksemckelloe', 'fhea']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "121815e57d4b396f",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/2//#testresult/121815e57d4b396f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618611582953,
+          "stop" : 1618611582953,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8a4fabea3a6c05d7.json",
+  "parameterValues" : [ "'affhkkse'", "['aaffhkksemckelloe', 'fhea']" ]
+}
