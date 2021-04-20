@@ -1,0 +1,106 @@
+{
+  "uid" : "21aaa879894b6f2b",
+  "name" : "test_min_window_substring[input_array5-affsf]",
+  "fullName" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring#test_min_window_substring",
+  "historyId" : "0b5d99063c87aad04410cf10b2387d36",
+  "time" : {
+    "start" : 1618935758638,
+    "stop" : 1618935758638,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'affsf' == ''\n  + affsf",
+  "statusTrace" : "input_array = ['aaffsfsfasfasfasfasfasfacasfafe', 'fafsf']\nexpected_result = 'affsf'\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_min_window_substring(input_array: List[str], expected_result: str):\n>       assert expected_result == MinWindowSubstring(input_array)\nE       AssertionError: assert 'affsf' == ''\nE         + affsf\n\nsrc/test/java/challenges/medium/MinWindowSubstring/test_min_window_substring.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring"
+  }, {
+    "name" : "suite",
+    "value" : "test_min_window_substring"
+  }, {
+    "name" : "host",
+    "value" : "fv-az132-146"
+  }, {
+    "name" : "thread",
+    "value" : "3106-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'affsf'"
+  }, {
+    "name" : "input_array",
+    "value" : "['aaffsfsfasfasfasfasfasfacasfafe', 'fafsf']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "60f871d9511ca479",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/4//#testresult/60f871d9511ca479",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'affsf' == ''\n  + affsf",
+        "time" : {
+          "start" : 1618934605191,
+          "stop" : 1618934605192,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4da9010b1799e41c",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/3//#testresult/4da9010b1799e41c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'affsf' == ''\n  + affsf",
+        "time" : {
+          "start" : 1618931466027,
+          "stop" : 1618931466027,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "da80d45bce78cd30",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/2//#testresult/da80d45bce78cd30",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'affsf' == ''\n  + affsf",
+        "time" : {
+          "start" : 1618611582960,
+          "stop" : 1618611582960,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "21aaa879894b6f2b.json",
+  "parameterValues" : [ "'affsf'", "['aaffsfsfasfasfasfasfasfacasfafe', 'fafsf']" ]
+}
