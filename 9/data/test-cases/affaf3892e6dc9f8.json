@@ -1,0 +1,133 @@
+{
+  "uid" : "affaf3892e6dc9f8",
+  "name" : "test_bracket_matcher[Argument goes here-1]",
+  "fullName" : "src.test.java.challenges.medium.BracketMatcher.test_bracket_matcher#test_bracket_matcher",
+  "historyId" : "caec66ece50ef30f62aec2b711efe8c4",
+  "time" : {
+    "start" : 1618941879917,
+    "stop" : 1618941879917,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.medium.BracketMatcher"
+  }, {
+    "name" : "suite",
+    "value" : "test_bracket_matcher"
+  }, {
+    "name" : "host",
+    "value" : "fv-az132-146"
+  }, {
+    "name" : "thread",
+    "value" : "3048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.medium.BracketMatcher.test_bracket_matcher"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "1"
+  }, {
+    "name" : "input",
+    "value" : "'Argument goes here'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2ce355c1dd291edc",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/8//#testresult/2ce355c1dd291edc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618940769558,
+          "stop" : 1618940769558,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "90409280dd0a4e2a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/7//#testresult/90409280dd0a4e2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618939850142,
+          "stop" : 1618939850142,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "546628a36d6774d6",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/6//#testresult/546628a36d6774d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618937389193,
+          "stop" : 1618937389193,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a784118c0016041a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/5//#testresult/a784118c0016041a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618935758605,
+          "stop" : 1618935758605,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "40ccb9a3ef363d1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/4//#testresult/40ccb9a3ef363d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618934605164,
+          "stop" : 1618934605165,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "dd05482d86bf1e2a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/3//#testresult/dd05482d86bf1e2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618931465993,
+          "stop" : 1618931465994,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cbdf6c4b772b20b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/2//#testresult/cbdf6c4b772b20b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618611582927,
+          "stop" : 1618611582928,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "affaf3892e6dc9f8.json",
+  "parameterValues" : [ "1", "'Argument goes here'" ]
+}
