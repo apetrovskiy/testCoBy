@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "78392c2e011369ee60e9c8cf217106b9",
+    "name" : "src.test.java.challenges.medium.MinWindowSubstring",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "eea60a549efb8fb14e8c54191108fdaa",
+    "name" : "src.test.java.challenges.easy.CodelandUsernameValidation",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "adb577fd59fc3e349795755c3a2dc809",
+    "name" : "src.test.java.challenges.medium.TreeConstructor",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "601cd02b000a7b0f4af90a06a10009c6",
+    "name" : "src.test.java.challenges.medium.BracketMatcher",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}
