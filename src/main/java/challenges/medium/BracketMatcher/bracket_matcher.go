@@ -14,6 +14,6 @@ func main() {
 
 	// do not modify below here, readline is our function
 	// that properly reads in the input for you
-	fmt.Println(BracketMatcher(readline()))
+	// fmt.Println(BracketMatcher(readline()))
 
 }
