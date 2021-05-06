@@ -1,6 +1,7 @@
-from typing import List
-from src.main.java.challenges.medium.TreeConstructor.tree_constructor import TreeConstructor
 import pytest
+from typing import List
+from src.main.java.challenges.medium.TreeConstructor.tree_constructor \
+    import TreeConstructor
 
 
 test_data = [

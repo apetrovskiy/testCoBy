@@ -1,5 +1,6 @@
-from src.main.java.challenges.easy.CodelandUsernameValidation.codeland_username_validation import CodelandUsernameValidation
 import pytest
+from src.main.java.challenges.easy.CodelandUsernameValidation.\
+    codeland_username_validation import CodelandUsernameValidation
 
 
 test_data = [

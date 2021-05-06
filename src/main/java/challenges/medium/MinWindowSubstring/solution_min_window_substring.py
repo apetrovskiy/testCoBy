@@ -6,8 +6,8 @@ def MinWindowSubstring(strArr):
     if len(strArr[1]) == 1:
         return result if strArr[1] not in strArr[0] else strArr[1]
     for index in range(0, len(strArr[1])):
-      if strArr[0].find(strArr[1][index]) == -1:
-        return result
+        if strArr[0].find(strArr[1][index]) == -1:
+            return result
     full_search_list = []
     for char_num in range(0, len(strArr[1])):
         position = 0
@@ -28,6 +28,6 @@ def MinWindowSubstring(strArr):
 
 
 '''
-# keep this function call here 
+# keep this function call here
 # print(MinWindowSubstring(input()))
 '''
