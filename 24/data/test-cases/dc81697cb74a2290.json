@@ -1,0 +1,276 @@
+{
+  "uid" : "dc81697cb74a2290",
+  "name" : "test_min_window_substring[input_array1-aabd]",
+  "fullName" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring#test_min_window_substring",
+  "historyId" : "f3e4ef138ba019662f16af4642af8d47",
+  "time" : {
+    "start" : 1620637109240,
+    "stop" : 1620637109240,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+  "statusTrace" : "input_array = ['aabdccdbcacd', 'aad'], expected_result = 'aabd'\n\n    @pytest.mark.parametrize(\"input_array,expected_result\", test_data)\n    def test_min_window_substring(input_array: List[str], expected_result: str):\n>       assert expected_result == MinWindowSubstring(input_array)\nE       AssertionError: assert 'aabd' == ''\nE         + aabd\n\nsrc/test/java/challenges/medium/MinWindowSubstring/test_min_window_substring.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring"
+  }, {
+    "name" : "suite",
+    "value" : "test_min_window_substring"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-470"
+  }, {
+    "name" : "thread",
+    "value" : "2437-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.medium.MinWindowSubstring.test_min_window_substring"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "'aabd'"
+  }, {
+    "name" : "input_array",
+    "value" : "['aabdccdbcacd', 'aad']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 23,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 23
+      },
+      "items" : [ {
+        "uid" : "b452c4621529c92b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/23//#testresult/b452c4621529c92b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1620413413689,
+          "stop" : 1620413413689,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8be8a2cbde48fbe8",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/22//#testresult/8be8a2cbde48fbe8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1620396765141,
+          "stop" : 1620396765142,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "692a492ac9ff904f",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/21//#testresult/692a492ac9ff904f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1620392039944,
+          "stop" : 1620392039944,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6e1ed58b2baee3c4",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/20//#testresult/6e1ed58b2baee3c4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1620336565564,
+          "stop" : 1620336565564,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1293c656a4dac6ae",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/19//#testresult/1293c656a4dac6ae",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1620335908904,
+          "stop" : 1620335908905,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5cc4a5126d685e70",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/18//#testresult/5cc4a5126d685e70",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1619846352819,
+          "stop" : 1619846352819,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4e150c1fccdea14",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/17//#testresult/4e150c1fccdea14",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1619385500310,
+          "stop" : 1619385500310,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "492c16cca0a6b96d",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/16//#testresult/492c16cca0a6b96d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1619382543985,
+          "stop" : 1619382543985,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c15eaaa8dc47f822",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/15//#testresult/c15eaaa8dc47f822",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1619382270783,
+          "stop" : 1619382270784,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3f82677382815566",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/14//#testresult/3f82677382815566",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1619266235935,
+          "stop" : 1619266235935,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a9131897f61d34e8",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/13//#testresult/a9131897f61d34e8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618947393368,
+          "stop" : 1618947393368,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "89bd134fc1dc9ef4",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/12//#testresult/89bd134fc1dc9ef4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618946859313,
+          "stop" : 1618946859313,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cd323b908105484a",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/11//#testresult/cd323b908105484a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618943038083,
+          "stop" : 1618943038083,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3a3e9cf3752b4849",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/10//#testresult/3a3e9cf3752b4849",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618942433959,
+          "stop" : 1618942433959,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ccccf130e7c3a4ec",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/9//#testresult/ccccf130e7c3a4ec",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618941879931,
+          "stop" : 1618941879931,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "526693e771ac83d8",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/8//#testresult/526693e771ac83d8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618940769571,
+          "stop" : 1618940769572,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e85fac53e8ff07d1",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/7//#testresult/e85fac53e8ff07d1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618939850156,
+          "stop" : 1618939850156,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f3cc1f99023c9c94",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/6//#testresult/f3cc1f99023c9c94",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618937389204,
+          "stop" : 1618937389204,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "258b5a0dc257d69b",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/5//#testresult/258b5a0dc257d69b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618935758617,
+          "stop" : 1618935758618,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e72a529dbaf56256",
+        "reportUrl" : "https://apetrovskiy.github.io/testCoBy/4//#testresult/e72a529dbaf56256",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'aabd' == ''\n  + aabd",
+        "time" : {
+          "start" : 1618934605175,
+          "stop" : 1618934605175,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dc81697cb74a2290.json",
+  "parameterValues" : [ "'aabd'", "['aabdccdbcacd', 'aad']" ]
+}
