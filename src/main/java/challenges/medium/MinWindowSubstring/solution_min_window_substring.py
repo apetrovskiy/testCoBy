@@ -24,10 +24,10 @@ def MinWindowSubstring(strArr):
     # print(all_min)
     all_max = min([max(x) for x in full_search_list])
     # print(all_max)
-    return strArr[0][all_max:all_min + 1]
+    return strArr[0][all_max : all_min + 1]
 
 
-'''
+"""
 # keep this function call here
 # print(MinWindowSubstring(input()))
-'''
+"""

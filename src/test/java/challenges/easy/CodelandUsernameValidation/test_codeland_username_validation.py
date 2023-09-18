@@ -1,13 +1,14 @@
 import pytest
-from src.main.java.challenges.easy.CodelandUsernameValidation.\
-    codeland_username_validation import CodelandUsernameValidation
+from src.main.java.challenges.easy.CodelandUsernameValidation.codeland_username_validation import (
+    CodelandUsernameValidation,
+)
 
 
 test_data = [
     ("aa_", "false"),
     ("u__hello_world123", "true"),
     ("oooooooooooooooooo________a", "false"),
-    ("a______b_________555555555555aaaa", "false")
+    ("a______b_________555555555555aaaa", "false"),
 ]
 
 

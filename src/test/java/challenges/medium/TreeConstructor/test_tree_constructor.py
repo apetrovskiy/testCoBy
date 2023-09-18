@@ -1,7 +1,8 @@
 import pytest
 from typing import List
-from src.main.java.challenges.medium.TreeConstructor.tree_constructor \
-    import TreeConstructor
+from src.main.java.challenges.medium.TreeConstructor.tree_constructor import (
+    TreeConstructor,
+)
 
 
 test_data = [
@@ -10,7 +11,7 @@ test_data = [
     (["(2,5)", "(2,6)"], "false"),
     (["(1,2)", "(2,4)", "(7,2)"], "true"),
     (["(10,20)"], "true"),
-    (["(10,20)", "(20,50)"], "true")
+    (["(10,20)", "(20,50)"], "true"),
 ]
 
 

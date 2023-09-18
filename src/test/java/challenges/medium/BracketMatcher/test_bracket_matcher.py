@@ -1,13 +1,14 @@
 import pytest
-from src.main.java.challenges.medium.BracketMatcher.bracket_matcher \
-    import BracketMatcher
+from src.main.java.challenges.medium.BracketMatcher.bracket_matcher import (
+    BracketMatcher,
+)
 
 
 test_data = [
     ("Argument goes here", 1),
     ("(coder)(byte))", 0),
     ("(c(oder)) b(yte)", 1),
-    ("the color re(d))()(()", 0)
+    ("the color re(d))()(()", 0),
 ]
 
 
