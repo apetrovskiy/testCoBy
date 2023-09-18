@@ -12,6 +12,6 @@ def MinWindowSubstring1(strArr):
         for j in range(i, len(N)):
             curr[N[j]] += 1
             if frequencyK - curr == EMPTY_COUNTER:
-                options.append(N[i:j + 1])
+                options.append(N[i : j + 1])
                 break
     return min(options, key=len)

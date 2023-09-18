@@ -1,9 +1,11 @@
 import pytest
 from typing import List
-from src.main.java.challenges.medium.MinWindowSubstring.\
-    someone_elses import MinWindowSubstring1
-from src.main.java.challenges.medium.MinWindowSubstring.\
-    solution_min_window_substring import MinWindowSubstring
+from src.main.java.challenges.medium.MinWindowSubstring.someone_elses import (
+    MinWindowSubstring1,
+)
+from src.main.java.challenges.medium.MinWindowSubstring.solution_min_window_substring import (
+    MinWindowSubstring,
+)
 
 
 test_data = [
@@ -15,7 +17,7 @@ test_data = [
     (["aaffsfsfasfasfasfasfasfacasfafe", "fafsf"], "affsf"),
     (["vvavereveaevafefaef", "vvev"], "vvave"),
     (["caae", "cae"], "caae"),
-    (["cccaabbbbrr", "rbac"], "caabbbbr")
+    (["cccaabbbbrr", "rbac"], "caabbbbr"),
 ]
 
 
@@ -26,5 +28,6 @@ def test_min_window_substring(input_array: List[str], expected_result: str):
 
 @pytest.mark.parametrize("input_array,expected_result", test_data)
 def test_min_window_substring_someone_elses(
-        input_array: List[str], expected_result: str):
+    input_array: List[str], expected_result: str
+):
     assert expected_result == MinWindowSubstring1(input_array)
